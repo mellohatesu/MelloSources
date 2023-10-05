@@ -1,0 +1,74 @@
+@font-face {
+    font-family: "Nintendo";
+    src: url(Fonts/Nintendo-DS-BIOS.ttf);
+  }
+
+body{
+    background-color: black;
+    font-family: "Nintendo";
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+text{
+    padding: 15%;
+}
+a{
+    text-decoration: none;
+    color: white; 
+}
+
+.grow { 
+    transition: all .2s ease-in-out; 
+    }
+    
+    .grow:hover { 
+    transform: scale(1.1); 
+    }
+
+.tweets{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: flex-start;
+    gap: 30px;
+}
+
+
+.resources img{
+    height: 200px;
+    width: 200px;
+    justify-content: center;
+    padding: 0%;
+}
+
+.resources{
+    padding: 0%;
+    display: inline;
+}
+
+ol {  
+    list-style-type: none;  
+    font-weight: bold;  
+    font-size: 50px;
+    padding: 0%;  
+    }  
+ul {  
+    list-style-type: none;  
+    font-weight: bold;  
+    font-size: 50px;
+    padding: 0%;
+    }  
+li{ 
+    justify-content: center;
+}
+
+.Bookimages img{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    align-content: flex-start;
+    flex-direction: column;
+    gap: 30px;
+}
